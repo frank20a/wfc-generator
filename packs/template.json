@@ -1,0 +1,22 @@
+{
+    "pack_name": "Template",
+    "tile_width": 16,
+    "tile_height": 16,
+    "tiles": [
+        {
+            "filename": "filename.png/jpg/bmp",
+            "rotations": [0],       // Valid 90 degree, CW rotations of the tile
+            "slots": [0, 0, 0, 0]   // Slot name starting from left going CW
+        },
+        .
+        .
+        .
+    ],
+    "compatible_slots": [   // Optional... if not specified, slots are only compatible with themselves
+        [1, 2],
+        [2, 1],
+        .
+        .
+        .
+    ]
+}

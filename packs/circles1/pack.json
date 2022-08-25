@@ -1,0 +1,47 @@
+{
+    "pack_name": "Circles",
+    "tiles_width": 16,
+    "tiles_height": 16,
+    "tiles": [
+        {
+            "filename": "0.png",
+            "rotations": [0],
+            "slots": [0, 0, 0, 0]
+        },
+        {
+            "filename": "1.png",
+            "rotations": [0, 1, 2, 3],
+            "slots": [0, 0, 1, 1]
+        },
+        {
+            "filename": "2.png",
+            "rotations": [0, 1],
+            "slots": [1, 0, 1, 0]
+        },
+        {
+            "filename": "3.png",
+            "rotations": [0, 1, 2, 3],
+            "slots": [0, 0, 2, 2]
+        },
+        {
+            "filename": "4.png",
+            "rotations": [0, 1],
+            "slots": [2, 0, 2, 0]
+        },
+        {
+            "filename": "f1.png",
+            "rotations": [0, 1, 2, 3],
+            "slots": [0, 0, 1, 2]
+        },
+        {
+            "filename": "f1t.png",
+            "rotations": [0, 1, 2, 3],
+            "slots": [0, 0, 2, 1]
+        },
+        {
+            "filename": "f2.png",
+            "rotations": [0, 1, 2, 3],
+            "slots": [2, 0, 1, 0]
+        }
+    ]
+}

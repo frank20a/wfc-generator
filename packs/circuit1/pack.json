@@ -1,0 +1,70 @@
+{
+    "pack_name": "Circuit Board 1",
+    "tiles_width": 16,
+    "tiles_height": 16,
+    "tiles": [
+        {
+            "filename": "blank.png",
+            "rotations": [0],
+            "slots": [0, 0, 0, 0]
+        },
+        {
+            "filename": "chip.png",
+            "rotations": [0],
+            "slots": [1, 1, 1, 1]
+        },
+        {
+            "filename": "chip_corner.png",
+            "rotations": [0, 1, 2, 3],
+            "slots": [2, 0, 0, 3]
+        },
+        {
+            "filename": "chip_edge_h.png",
+            "rotations": [0, 1, 2, 3],
+            "slots": [1, 5, 4, 6]
+        },
+        {
+            "filename": "diag.png",
+            "rotations": [0, 1, 2, 3],
+            "slots": [0, 4, 4, 0]
+        },
+        {
+            "filename": "double_diag.png",
+            "rotations": [0, 1],
+            "slots": [4, 4, 4, 4]
+        },
+        {
+            "filename": "end.png",
+            "rotations": [0, 1, 2, 3],
+            "slots": [0, 0, 4, 0]
+        },
+        {
+            "filename": "line.png",
+            "rotations": [0, 1],
+            "slots": [4, 0, 4, 0]
+        },
+        {
+            "filename": "t-split.png",
+            "rotations": [0, 1, 2, 3],
+            "slots": [4, 4, 0, 4]
+        },
+        {
+            "filename": "via.png",
+            "rotations": [0],
+            "slots": [0, 0, 0, 0]
+        },
+        {
+            "filename": "halfchip.png",
+            "rotations": [0, 1, 2, 3],
+            "slots": [1, 5, 0, 6]
+        }
+    ],
+    "compatible_slots": [
+        [0, 0],
+        [1, 1],
+        [2, 6],
+        [3, 5],
+        [4, 4],
+        [5, 6]
+    ]
+}
