@@ -54,9 +54,39 @@
             "slots": [0, 0, 0, 0]
         },
         {
-            "filename": "halfchip.png",
+            "filename": "cap_center.png",
             "rotations": [0, 1, 2, 3],
-            "slots": [1, 5, 0, 6]
+            "slots": [8, 7, 9, 7]
+        },
+        {
+            "filename": "cap_edge_m.png",
+            "rotations": [0, 1, 2, 3],
+            "slots": [16, 10, 8, 12]
+        },
+        {
+            "filename": "cap_edge_p.png",
+            "rotations": [0, 1, 2, 3],
+            "slots": [16, 10, 9, 12]
+        },
+        {
+            "filename": "cap_edge.png",
+            "rotations": [0, 1, 2, 3],
+            "slots": [15, 10, 7, 12]
+        },
+        {
+            "filename": "cap_corner.png",
+            "rotations": [0, 1, 2, 3],
+            "slots": [15, 15, 13, 11]
+        },
+        {
+            "filename": "res.png",
+            "rotations": [0, 1, 2, 3],
+            "slots": [16, 0, 14, 0]
+        },
+        {
+            "filename": "led.png",
+            "rotations": [0, 1, 2, 3],
+            "slots": [16, 15, 16, 15]
         }
     ],
     "compatible_slots": [
@@ -65,6 +95,14 @@
         [2, 6],
         [3, 5],
         [4, 4],
-        [5, 6]
+        [5, 6],
+		[8, 8],
+		[9, 9],
+		[7, 7],
+		[10, 11],
+		[12, 13],
+        [14, 14],
+        [15, 0],
+        [16, 4]
     ]
 }
